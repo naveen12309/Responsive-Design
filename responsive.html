@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      font-family: Verdana;
+    }
+    header{
+      width: 97%;
+      padding: 30px;
+      background-color:#f1f1f1 ;
+      display: block;
+    }
+    
+    
+    nav{
+      width: 15%;
+      float: left;
+    }
+    ul{
+      list-style-type: none;
+      margin: 0;
+      padding: 5px;
+      text-decoration: none;
+    }
+    ul li{
+      padding: 10px;
+      font-size: 20px;
+      border-bottom: 1px solid rgb(213, 204, 204);
+      
+    }
+    a{
+      text-decoration: none;
+      color: black;
+    }
+    main{
+      width: 62%;
+      margin-left: 20px;
+      float: left;
+    }
+    main p{
+      font-size: 25px;
+      text-align: justify;
+    }
+    img{
+      width: 100%;
+      height: auto;
+    }
+    div{
+      float: left;
+      width: 18%;
+      background-color: lightblue;
+      padding: 20px;
+      margin-left: 20px;
+      margin-top: 20px;
+
+     
+    }
+    li:hover{
+      background-color: lightgray;
+    }
+    div p{
+      font-size: 25px;
+      text-align: justify;
+    }
+    @media only screen and (max-width:1650px){
+      div{
+        width:15%;
+        
+      }
+    }
+    @media only screen and (max-width:1200px){
+      main{
+        width: 50%;
+      }
+      div{
+        width:25%;
+       
+      }
+    }
+    @media only screen and (max-width:900px){
+      main{
+        width: 50%;
+      }
+      div{
+        width:20%;
+       
+      }
+    }
+    @media only screen and (max-width:750px){
+      main{
+        width: 50%;
+      }
+      div{
+        width:22%;
+        
+      }
+    }
+    @media only screen and (max-width:700px){
+      nav{
+        width: 97%;
+      }
+      main{
+        width: 97%;
+        margin-left: 0;
+      }
+      div{
+        width:97%;
+        margin-left: 0;
+       
+      }
+    }
+   
+
+    
+    
+   
+      
+    
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Cinque Terre</h1>
+    <h3>Resize the browser window</h3>
+  </header>
+  <section class="section">
+    <nav>
+      <ul>
+        <li><a href="link1">The Walk</a></li>
+        <li><a href="link1">Transport</a></li>
+        <li><a href="link1">History</a></li>
+        <li><a href="link1">gallery</a></li>
+      </ul>
+    </nav>
+    <main class="main">
+      <h1>
+        The Walk
+      </h1>
+      <p>
+        The walk from Monterosso to Riomaggiore will 
+        take you approximately two hours, give or take an hour depending 
+        on the weather conditions and your physical shape.
+      </p>
+      <img src="img_5terre.jpg" alt="no-image">
+    
+    </main>  
+    <div class="aside">
+      <h1>
+        What?
+      </h1>
+      <p>
+        Cinque Terre comprises five villages: Monterosso, Vernazza, 
+        Corniglia, Manarola, and Riomaggiore.
+      </p>
+      <h1>Where?</h1>
+      <p>On the northwest cost of the Italian Riviera, 
+        north of the city La Spezia.</p>
+  
+      <h1>
+        Price?
+      </h1>
+      <p>The Walk is free</p>
+    </div>
+  </section>
+
+  
+  
+</body>
+</html>
